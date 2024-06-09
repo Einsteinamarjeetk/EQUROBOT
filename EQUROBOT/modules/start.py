@@ -23,18 +23,18 @@ START_TEXT = """
 async def start(client, message):
     buttons = [
         [
-            InlineKeyboardButton("⦿ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ⦿", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            InlineKeyboardButton("⦿ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ⦿", url=f"https://t.me/ssc_gd_2023_set_practice_rwa?startgroup=true")
         ],
         [
-            InlineKeyboardButton("⦿ɢʀᴏᴜᴘ⦿", url=f"https://t.me/ALLTYPECC"),
-            InlineKeyboardButton("⦿ᴏᴡɴᴇʀ⦿", user_id=OWNER_ID)
+            InlineKeyboardButton("⦿ɢʀᴏᴜᴘ⦿", url=f"https://t.me/am03_2023"),
+            InlineKeyboardButton("⦿ᴏᴡɴᴇʀ⦿", user_id=6015844922)
         ]
     ]
 
     reply_markup = InlineKeyboardMarkup(buttons)
 
     await message.reply_video(
-        video="https://telegra.ph/file/365de71e032aadb98e1d2.mp4",
+        video="https://te.legra.ph/Einstein-Amarjeet-05-12",
         caption=START_TEXT,
         reply_markup=reply_markup
     )

@@ -4,7 +4,7 @@ from pyrogram import idle
 from EQUROBOT import app
 from EQUROBOT.modules import ALL_MODULES
 
-LOGGER_ID = -1001919135283
+LOGGER_ID = -1002024794211
 
 loop = asyncio.get_event_loop()
 
